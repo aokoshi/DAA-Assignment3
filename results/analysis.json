@@ -1,0 +1,82 @@
+[
+  {
+    "algorithm": "Kruskal",
+    "density": "sparse",
+    "scan_slope": 1.05500251082575,
+    "comparison_slope": 1.054529708592156,
+    "ratio_min": 0.7446918450163881,
+    "ratio_max": 0.9068549101320719
+  },
+  {
+    "algorithm": "Kruskal",
+    "density": "dense",
+    "scan_slope": 1.119420822596835,
+    "comparison_slope": 1.0159391307806491,
+    "ratio_min": 0.6662216428651649,
+    "ratio_max": 0.9027442362614757
+  },
+  {
+    "algorithm": "Prim",
+    "density": "sparse",
+    "scan_slope": 1.0,
+    "comparison_slope": 1.1079458960279696,
+    "ratio_min": 1.8290903027605492,
+    "ratio_max": 1.93441069156869
+  },
+  {
+    "algorithm": "Prim",
+    "density": "dense",
+    "scan_slope": 1.0,
+    "comparison_slope": 1.0902864550103915,
+    "ratio_min": 1.8247672760628564,
+    "ratio_max": 1.8895857168566241
+  },
+  {
+    "algorithm": "Kosaraju",
+    "density": "sparse",
+    "scan_slope": 1.0,
+    "comparison_slope": null,
+    "ratio_min": 1.6,
+    "ratio_max": 1.6
+  },
+  {
+    "algorithm": "Kosaraju",
+    "density": "dense",
+    "scan_slope": 1.0,
+    "comparison_slope": null,
+    "ratio_min": 1.9047619047619047,
+    "ratio_max": 1.9047619047619047
+  },
+  {
+    "algorithm": "Kahn",
+    "density": "sparse",
+    "scan_slope": 1.0,
+    "comparison_slope": null,
+    "ratio_min": 0.8,
+    "ratio_max": 0.8
+  },
+  {
+    "algorithm": "Kahn",
+    "density": "dense",
+    "scan_slope": 1.0,
+    "comparison_slope": null,
+    "ratio_min": 0.9523809523809523,
+    "ratio_max": 0.9523809523809523
+  },
+  {
+    "algorithm": "DagShortestPath",
+    "density": "sparse",
+    "scan_slope": 1.0,
+    "comparison_slope": null,
+    "ratio_min": 0.8,
+    "ratio_max": 0.8
+  },
+  {
+    "algorithm": "DagShortestPath",
+    "density": "dense",
+    "scan_slope": 1.0,
+    "comparison_slope": null,
+    "ratio_min": 0.9523809523809523,
+    "ratio_max": 0.9523809523809523
+  }
+]
