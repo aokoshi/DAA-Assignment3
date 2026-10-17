@@ -1,0 +1,9 @@
+Java: 17.0.20.1
+VM: OpenJDK 64-Bit Server VM
+OS: Windows 11 amd64
+Processors: 12
+Max heap bytes: 2147483648
+Runs: 5 (median); no explicit warmup
+Seed: new Random(42) per graph
+Sizes: [1000, 3162, 10000, 31623, 100000]
+Densities: [4, 20]
