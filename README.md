@@ -165,14 +165,3 @@ python tools/build_report.py
 The repository retains `feature/dsu`, `feature/mst`, `feature/scc`, `feature/paths`
 and `feature/metrics`. Features were implemented in small, purpose-specific commits
 and merged into working `main`; the completed release is tagged `v1.0`.
-
-Submit `DAA_Assignment3_Pashanov_Yelnur_SE2523.zip` to Moodle and include the GitHub
-link above. The defense preparation text is delivered separately from the project.
-
-## AI-use acknowledgement
-
-OpenAI Codex assisted with implementation, tests, benchmark execution, analysis and
-documentation. The included measurements were produced by running the code, and
-all tests and reference checks were executed. The student is responsible for
-reviewing the submission, understanding every algorithm and explaining it during
-the defense.
