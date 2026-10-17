@@ -113,6 +113,6 @@ public final class Main {
         System.out.println("analyze <file> [target]");
         System.out.println("generate <undirected|directed|dag> <n> <m> <file>");
         System.out.println("benchmark");
-        System.out.println("benchmark-custom <n1,n2,...> <m/n1,m/n2,...> <odd-runs> <csv>");
+        System.out.println("benchmark-custom <n1,n2,...> <density1,density2,...> <odd-runs> <csv>");
     }
 }
