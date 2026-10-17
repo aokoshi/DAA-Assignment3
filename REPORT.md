@@ -86,7 +86,7 @@ Traversal ratios are exactly constant at each density. Sort/heap ratios remain o
 
 ## Wall-clock time
 
-Measured medians range from 0.456 to 1757.603 ms on Java 17.0.20.1, Windows 11 amd64, with a 2 GiB heap. At V=100,000 and E=2,000,000, Kruskal took 399.676 ms and lazy Prim 1757.603 ms. There is no explicit warmup; JIT compilation, garbage collection and background load especially affect small cases. Different hardware and JVMs will change timings, so these observations are secondary to the operation counters. The runtime details are saved beside the CSV.
+Measured medians range from 0.327 to 1631.199 ms on Java 17.0.20.1, Windows 11 amd64, with a 2 GiB heap. At V=100,000 and E=2,000,000, Kruskal took 446.914 ms and lazy Prim 1631.199 ms. There is no explicit warmup; JIT compilation, garbage collection and background load especially affect small cases. Different hardware and JVMs will change timings, so these observations are secondary to the operation counters. The runtime details are saved beside the CSV.
 
 ## 4. Operation growth and scans per edge
 
