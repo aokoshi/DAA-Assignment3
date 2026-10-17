@@ -27,8 +27,14 @@ public final class DisjointSetUnion {
     public int find(int x) {
         if (x < 0 || x >= parent.length) throw new IllegalArgumentException("Invalid element: " + x);
         metrics.findCalls++;
-        while (x != parent[x]) x = parent[x];
-        return x;
+        int root = x;
+        while (root != parent[root]) root = parent[root];
+        while (x != root) {
+            int next = parent[x];
+            parent[x] = root;
+            x = next;
+        }
+        return root;
     }
 
     public boolean union(int x, int y) {
